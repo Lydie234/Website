@@ -5,3 +5,11 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+
+const nav= document.getElementsByTagName('a');
+nav.addEventListener('mouseover' , function(){
+nav.style.backgroundColor = "beige"; 
+});
+nav.addEventListener('mouseout', function() {
+    nav.style.backgroundColor = 'white'; 
+});
